@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{31BD4EF2-8459-464E-B5B9-2B42F8C4E01C}</ProjectGuid>
+    <ProjectGuid>{E67A7413-276E-4F06-AF3F-F85E6E554158}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>Tech_Job_Fair.My.MyApplication</StartupObject>
     <RootNamespace>Tech_Job_Fair</RootNamespace>
@@ -72,11 +72,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmTechJobFair.vb">
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTechJobFair.Designer.vb">
-      <DependentUpon>frmTechJobFair.vb</DependentUpon>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -96,9 +96,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmTechJobFair.resx">
-      <DependentUpon>frmTechJobFair.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
